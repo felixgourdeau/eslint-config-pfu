@@ -1,0 +1,23 @@
+{
+  "name": "pfu-eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Félix Gourdeau",
+  "repository": "felixgourdeau/pfu-eslint-config",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "prettier": "^2.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
